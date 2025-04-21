@@ -7,7 +7,7 @@ This code calculates the expected value of the entropy of a uniformly distribute
 ### Import module
 
 ```python
-    from average_entropy import avg_entropy
+from average_entropy import avg_entropy
 ```
 
 ### Calculate expected value of entropy
@@ -15,8 +15,8 @@ This code calculates the expected value of the entropy of a uniformly distribute
 Example where we are interested in the expected value of the entropy of a random uniformly distributed sample of size 6 over 20 bins.
 
 ```python
-    e = avg_entropy(6, 20)
-	print(e)
+e = avg_entropy(6, 20)
+print(e)
 ```
 
 
